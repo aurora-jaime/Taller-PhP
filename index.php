@@ -48,11 +48,10 @@ include("connection.php")
             <ul class="list-group list-group-numbered mt-4">
 
                    <?php  foreach($result as $registro){ ?>
-                <li class="list-group-item ">Actividad 1</li>
+                <li class="list-group-item "><?php echo $registro['task'] ?> </li>
+
                   <?php } ?>
-                 <li class="list-group-item ">Actividad 2</li>
-                <li class="list-group-item">Actividad 3</li>
-                <li class="list-group-item">Actividad 4</li>
+        
             </ul>
             
         </div>
